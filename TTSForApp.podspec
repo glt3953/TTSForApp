@@ -33,14 +33,14 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'TTSForApp/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'TTSForApp' => ['TTSForApp/Assets/*.png']
-  # }
+  s.resource_bundles = {
+      'TTSForApp' => ['TTSForApp/Assets/**/*.dat']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
 
     s.vendored_libraries = [
-    'TTSForApp/lib/libSpeechSynthesizer.a',
+        'TTSForApp/lib/libSpeechSynthesizer.a',
     ]
 
   # s.frameworks = 'UIKit', 'MapKit'
