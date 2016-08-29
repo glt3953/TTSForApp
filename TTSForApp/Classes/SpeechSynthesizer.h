@@ -9,6 +9,12 @@
 #import <Foundation/Foundation.h>
 #import "SpeechSynthesizerDelegate.h"
 
+static const NSString *kFilePath = @"TTSForApp.bundle/"; //资源文件集成于pod
+//static const NSString *kFilePath = @"";
+static const NSString *kTextDatFileName = @"etts_release1.0.0_front_navi_chn_16081101";
+static const NSString *kSpeechDatFileName = @"df18_10k_dnn_didi";
+static const NSString *kFileEx = @".dat";
+
 // 引擎错误
 typedef enum EngineError{
     ENGINE_ERROR_OK = 0,
