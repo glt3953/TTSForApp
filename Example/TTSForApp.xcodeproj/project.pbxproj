@@ -19,9 +19,9 @@
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		F37942B61D78482D009591E8 /* etts_release1.0.0_front_navi_chn_16090102.dat in Resources */ = {isa = PBXBuildFile; fileRef = F37942B51D78482D009591E8 /* etts_release1.0.0_front_navi_chn_16090102.dat */; };
 		F3EDD6391D73E4CE00C5ADEE /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = F3EDD62F1D73E4CE00C5ADEE /* .gitkeep */; };
 		F3EDD63A1D73E4CE00C5ADEE /* df18_10k_dnn_didi.dat in Resources */ = {isa = PBXBuildFile; fileRef = F3EDD6311D73E4CE00C5ADEE /* df18_10k_dnn_didi.dat */; };
-		F3EDD63B1D73E4CE00C5ADEE /* etts_release1.0.0_front_navi_chn_16081101.dat in Resources */ = {isa = PBXBuildFile; fileRef = F3EDD6321D73E4CE00C5ADEE /* etts_release1.0.0_front_navi_chn_16081101.dat */; };
 		F3EDD63C1D73E4CE00C5ADEE /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = F3EDD6341D73E4CE00C5ADEE /* .gitkeep */; };
 /* End PBXBuildFile section */
 
@@ -55,9 +55,9 @@
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6D13B02D9ABA93B904440D63 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F37942B51D78482D009591E8 /* etts_release1.0.0_front_navi_chn_16090102.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = etts_release1.0.0_front_navi_chn_16090102.dat; sourceTree = "<group>"; };
 		F3EDD62F1D73E4CE00C5ADEE /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		F3EDD6311D73E4CE00C5ADEE /* df18_10k_dnn_didi.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = df18_10k_dnn_didi.dat; sourceTree = "<group>"; };
-		F3EDD6321D73E4CE00C5ADEE /* etts_release1.0.0_front_navi_chn_16081101.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = etts_release1.0.0_front_navi_chn_16081101.dat; sourceTree = "<group>"; };
 		F3EDD6341D73E4CE00C5ADEE /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		F3EDD6351D73E4CE00C5ADEE /* SpeechSynthesizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeechSynthesizer.h; sourceTree = "<group>"; };
 		F3EDD6361D73E4CE00C5ADEE /* SpeechSynthesizerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeechSynthesizerDelegate.h; sourceTree = "<group>"; };
@@ -178,8 +178,8 @@
 		F3EDD6301D73E4CE00C5ADEE /* data */ = {
 			isa = PBXGroup;
 			children = (
+				F37942B51D78482D009591E8 /* etts_release1.0.0_front_navi_chn_16090102.dat */,
 				F3EDD6311D73E4CE00C5ADEE /* df18_10k_dnn_didi.dat */,
-				F3EDD6321D73E4CE00C5ADEE /* etts_release1.0.0_front_navi_chn_16081101.dat */,
 			);
 			path = data;
 			sourceTree = "<group>";
@@ -284,7 +284,7 @@
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 				F3EDD6391D73E4CE00C5ADEE /* .gitkeep in Resources */,
-				F3EDD63B1D73E4CE00C5ADEE /* etts_release1.0.0_front_navi_chn_16081101.dat in Resources */,
+				F37942B61D78482D009591E8 /* etts_release1.0.0_front_navi_chn_16090102.dat in Resources */,
 				F3EDD63C1D73E4CE00C5ADEE /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

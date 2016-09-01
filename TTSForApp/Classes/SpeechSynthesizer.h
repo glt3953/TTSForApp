@@ -9,12 +9,6 @@
 #import <Foundation/Foundation.h>
 #import "SpeechSynthesizerDelegate.h"
 
-static const NSString *kFilePath = @"TTSForApp.bundle/"; //资源文件集成于pod
-//static const NSString *kFilePath = @"";
-static const NSString *kTextDatFileName = @"etts_release1.0.0_front_navi_chn_16081101";
-static const NSString *kSpeechDatFileName = @"df18_10k_dnn_didi";
-static const NSString *kFileEx = @".dat";
-
 // 引擎错误
 typedef enum EngineError{
     ENGINE_ERROR_OK = 0,
@@ -65,6 +59,8 @@ typedef enum SYNTH_SPEAK_TYPE
     SYNTH_SPEAK_CALLBACK = 0,
     SYNTH_SPEAK_VOLUME,
     SYNTH_SPEAK_SPEED,
+    SYNTH_SPEAK_SPEECH_MODEL_FILE,
+    SYNTH_SPEAK_TEXT_MODEL_FILE,
 }SYNTH_SPEAK_TYPE;
 
 // 输出的pcm音频数据类型: 16K（默认）/ 8K
@@ -122,7 +118,7 @@ typedef enum SynthesizerError{
  *
  * @return 错误码
  */
-- (NSInteger)setSynthesizeParam: (SYNTH_SPEAK_TYPE)paramType withValue: (NSInteger)value;
+- (NSInteger)setSynthesizeParam:(SYNTH_SPEAK_TYPE)paramType withValue:(NSString *)strValue;
 
 /**
  * @brief 开始文本合成，是否朗读由isSpeak控制，如不播放，开发者需要通过DDSSpeechSynthesizerDelegate的
